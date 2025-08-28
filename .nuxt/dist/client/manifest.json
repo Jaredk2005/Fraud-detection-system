@@ -1,0 +1,224 @@
+{
+  "_BNh8FWfG.js": {
+    "file": "_nuxt/BNh8FWfG.js",
+    "name": "state",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_BOs-63Ba.js": {
+    "file": "_nuxt/BOs-63Ba.js",
+    "name": "CloudArrowUpIcon",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_BfEU15pp.js": {
+    "file": "_nuxt/BfEU15pp.js",
+    "name": "DashboardChart.vue",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_CBpsKyOP.js": {
+    "file": "_nuxt/CBpsKyOP.js",
+    "name": "format"
+  },
+  "_CLo30zaQ.js": {
+    "file": "_nuxt/CLo30zaQ.js",
+    "name": "useAuth",
+    "imports": [
+      "_BNh8FWfG.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_Chie5Ehj.js": {
+    "file": "_nuxt/Chie5Ehj.js",
+    "name": "ChartBarIcon",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_DeMLfEu4.js": {
+    "file": "_nuxt/DeMLfEu4.js",
+    "name": "nuxt-layout",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_Pr3K1wcO.js": {
+    "file": "_nuxt/Pr3K1wcO.js",
+    "name": "nuxt-link",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_rWqD71tM.js": {
+    "file": "_nuxt/rWqD71tM.js",
+    "name": "ShieldCheckIcon",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "_x_rD_Ya3.js": {
+    "file": "_nuxt/x_rD_Ya3.js",
+    "name": "interval"
+  },
+  "layouts/default.vue": {
+    "file": "_nuxt/ii8xZQvh.js",
+    "name": "default",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Pr3K1wcO.js",
+      "_CLo30zaQ.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_Chie5Ehj.js",
+      "_BNh8FWfG.js"
+    ]
+  },
+  "middleware/auth.ts": {
+    "file": "_nuxt/DyUdVpBe.js",
+    "name": "auth",
+    "src": "middleware/auth.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "_BNh8FWfG.js"
+    ]
+  },
+  "node_modules/nuxt/dist/app/components/error-404.vue": {
+    "file": "_nuxt/Cw0Tcg4s.js",
+    "name": "error-404",
+    "src": "node_modules/nuxt/dist/app/components/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Pr3K1wcO.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": [
+      "_nuxt/error-404.4oxyXxx0.css"
+    ]
+  },
+  "node_modules/nuxt/dist/app/components/error-500.vue": {
+    "file": "_nuxt/CZS57go8.js",
+    "name": "error-500",
+    "src": "node_modules/nuxt/dist/app/components/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js"
+    ],
+    "css": [
+      "_nuxt/error-500.CZqNkBuR.css"
+    ]
+  },
+  "node_modules/nuxt/dist/app/entry.js": {
+    "file": "_nuxt/Cuvv8fMg.js",
+    "name": "entry",
+    "src": "node_modules/nuxt/dist/app/entry.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/index.vue",
+      "pages/login.vue",
+      "pages/reports.vue",
+      "pages/analysis.vue",
+      "pages/training.vue",
+      "pages/dashboard.vue",
+      "pages/prediction.vue",
+      "middleware/auth.ts",
+      "layouts/default.vue",
+      "node_modules/nuxt/dist/app/components/error-404.vue",
+      "node_modules/nuxt/dist/app/components/error-500.vue"
+    ]
+  },
+  "pages/analysis.vue": {
+    "file": "_nuxt/DODfxNOV.js",
+    "name": "analysis",
+    "src": "pages/analysis.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_BfEU15pp.js",
+      "_DeMLfEu4.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_x_rD_Ya3.js",
+      "_BOs-63Ba.js",
+      "_Chie5Ehj.js",
+      "_rWqD71tM.js"
+    ],
+    "css": [
+      "_nuxt/analysis.WrM26fVz.css"
+    ]
+  },
+  "pages/dashboard.vue": {
+    "file": "_nuxt/DUmFvcRB.js",
+    "name": "dashboard",
+    "src": "pages/dashboard.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_BfEU15pp.js",
+      "_DeMLfEu4.js",
+      "node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "_nuxt/xPcqLAyZ.js",
+    "name": "index",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Pr3K1wcO.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_Chie5Ehj.js",
+      "_rWqD71tM.js"
+    ]
+  },
+  "pages/login.vue": {
+    "file": "_nuxt/CI8Hjonr.js",
+    "name": "login",
+    "src": "pages/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.js",
+      "_CLo30zaQ.js",
+      "_rWqD71tM.js",
+      "_BNh8FWfG.js"
+    ]
+  },
+  "pages/prediction.vue": {
+    "file": "_nuxt/xhzONTdB.js",
+    "name": "prediction",
+    "src": "pages/prediction.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_DeMLfEu4.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_BOs-63Ba.js"
+    ]
+  },
+  "pages/reports.vue": {
+    "file": "_nuxt/D8x1a5_x.js",
+    "name": "reports",
+    "src": "pages/reports.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_DeMLfEu4.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_CBpsKyOP.js"
+    ]
+  },
+  "pages/training.vue": {
+    "file": "_nuxt/CSnoD0PE.js",
+    "name": "training",
+    "src": "pages/training.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_DeMLfEu4.js",
+      "node_modules/nuxt/dist/app/entry.js",
+      "_x_rD_Ya3.js",
+      "_CBpsKyOP.js"
+    ],
+    "css": [
+      "_nuxt/training.lQAUfB3G.css"
+    ]
+  }
+}
