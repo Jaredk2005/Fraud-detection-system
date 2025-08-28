@@ -1,0 +1,35 @@
+import { u as useState } from "./state-_I5XcLqc.js";
+import { n as navigateTo } from "../server.mjs";
+import { readonly } from "vue";
+const useAuth = () => {
+  const isAuthenticated = useState("auth.isAuthenticated", () => false);
+  const user = useState("auth.user", () => null);
+  const login = async (credentials) => {
+    await new Promise((resolve) => setTimeout(resolve, 1e3));
+    if (credentials.email === "blessing@gmail.com" && credentials.password === "password") {
+      isAuthenticated.value = true;
+      user.value = {
+        name: "Dr. Sarah Chen",
+        email: "blessing@gmail.com",
+        role: "Data Scientist"
+      };
+      return { success: true };
+    }
+    return { success: false, error: "Invalid credentials" };
+  };
+  const logout = () => {
+    isAuthenticated.value = false;
+    user.value = null;
+    navigateTo("/login");
+  };
+  return {
+    isAuthenticated: readonly(isAuthenticated),
+    user: readonly(user),
+    login,
+    logout
+  };
+};
+export {
+  useAuth as u
+};
+//# sourceMappingURL=useAuth-XXrPh909.js.map
